@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pauldub.css">
+
+    <title>Paul Pek-Ming Wong</title>
+
+    <style>
+    * {
+        text-decoration: none;       
+    }
+    
+    body {
+        background-color: #F7F9F9 ;
+        font-family: 'Heebo', sans-serif;
+        color: #232323;
+    }
+
+    h1 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 42px;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 7px 0;
+    }
+    
+    h3 :link, 
+    h3 :visited {
+        color: inherit;
+    }
+
+    h3 :hover {
+        color: #00AF46;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .caption {
+        font-size: 14px;
+        font-weight: 200;
+        color: #666666;
+    }
+
+    .type_green {
+        color: #00AF46;
+    }
+    
+    .type_semibold {
+        font-weight: 500;
+    }
+
+    .type_flushright {
+        text-align: right;
+    }
+
+    .content-wrapper {
+        display: block;
+        margin: 0 auto;
+        max-width: 1600px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 10px;
+    }
+
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img art {
+        width: 100%;
+    }
+
+    .intro {
+        margin: 16px 0 28px;
+        padding-right: 20px;
+    }
+
+    .work_thumbnail {
+        border-top: 1px dashed #B6B4B2;
+        margin-bottom: 28px;
+    }
+
+    .nav_global {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        margin: -5px 0;
+    }
+
+    .nav_left {
+        grid-column: 1 / 5;
+    }
+
+    .nav_right {
+        grid-column: 5 / 7;
+    }
+
+    @media screen and (max-width: 900px) {
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 10px;
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+
+<div class="content-wrapper">
+
+<!-- Nav -->
+
+<header class="nav_global">
+
+    <div class="nav_left">
+        <h2><span class="type_semibold">Paul</span> Pek-Ming <span class="type_semibold">Wong</span></h2>
+    </div>
+    
+    <div class="nav_right">
+        <h2 class="type_flushright">Info <span class="type_green" >/</span> More</h2>
+    </div>
+
+</header>
+
+<main>
+
+<div class="container">
+
+<!-- Work Samples -->
+    <div class="intro"><h1>I am a freelance designer based in New York City, seeing to it that stories, pictures and colours play well together.</h1></div>
+    <div class="work_thumbnail"><h3><a href="#">AIGA</a></h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail.png" alt="AIGA Corporate Sponsorship Brochure"></div>
+    <div class="work_thumbnail"><h3>Art Friend</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_02.png" alt=""></div>
+    <div class="work_thumbnail"><h3>Cambodian Association of Illinois</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_03.png" alt=""></div>
+    <div class="work_thumbnail"><h3>Emissary</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_04.png" alt=""></div>
+    <div class="work_thumbnail"><h3>Gerson Lehrman Group</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_05.png" alt=""></div>
+    <div class="work_thumbnail"><h3>Good Food Institute</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_06.png" alt=""></div>
+    <div class="work_thumbnail"><h3>Make A Better Place</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_07.png" alt=""></div>
+    <div class="work_thumbnail"><h3>McDermott Will & Emery</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_08.png" alt=""></div>
+    <div class="work_thumbnail"><h3>Spencer Stuart</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail.png" alt=""></div>
+    <div class="work_thumbnail"><h3>???</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_02.png" alt=""></div>
+    <div class="work_thumbnail"><h3>Logos</h3>
+        <img class="art" src="imgs/fpo_wk_thumbnail_03.png" alt=""></div>
+</div>
+
+</main>
+
+<footer>
+    <div class="caption">@2020 Paul Pek-Ming Wong</div>
+</footer>
+
+</div>
+
+</body>
+
+</html>
