@@ -45,7 +45,7 @@ ul {
 }
 
 li {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .caption {
@@ -58,20 +58,22 @@ li {
     margin-top: -4px;
 }
 
-.type_orange {
-    color:  #FF5722;
-}
-
-.type_grey {
-    color: #999;
-}
-
 .type_light {
     font-weight: 200;
 }
 
 .type_semibold {
     font-weight: 500;
+}
+
+.type_orange {
+    font-size: 90%;
+    color:  #FF5722;
+}
+
+.type_grey {
+    font-size: 90%;
+    color: #939393;
 }
 
 /* Navigation ---------------------------------------------------------- */
@@ -489,7 +491,7 @@ grid-column: 1 / 2;
         font-size: 16px;
         line-height: 20px;
     }
-    
+
     .container-about {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -516,6 +518,10 @@ grid-column: 1 / 2;
 
 /* 600 */
 @media screen and (max-width: 600px) {
+    li {
+        margin-bottom: 4px;
+    }
+
     .container-about {
         margin-top: 12px;
     }
