@@ -244,13 +244,13 @@ footer {
 
 .about_desc_left {
     grid-column: 3 / 4;
-    margin-top: 20px;
+    margin: 20px 0 12px;
     padding: 0 30px 30px 0;
 }
 
 .about_desc_right {
     grid-column: 4 / 5;
-    margin-top: 20px;
+    margin: 20px 0 12px;
     padding: 0 0 30px;
 }
 
