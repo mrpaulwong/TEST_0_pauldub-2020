@@ -31,13 +31,12 @@ h2 :visited {
 
 p {
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 24px;
 }
 
 ul {
     font-size: 17px;
-    font-weight: 300;
     line-height: 22px;
     margin-top: -8px;
     padding: 0;
@@ -68,12 +67,14 @@ li {
 
 .type_orange {
     font-size: 90%;
+    font-weight: 300;
     color:  #FF5722;
 }
 
 .type_grey {
     font-size: 90%;
-    color: #939393;
+    font-weight: 300;
+    color: #888;
 }
 
 /* Navigation ---------------------------------------------------------- */
