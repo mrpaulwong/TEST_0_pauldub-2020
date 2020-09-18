@@ -29,7 +29,10 @@ p {
     line-height: 24px;
 }
 
-a {
+a,
+a:visited,
+a:active,
+a:focus {
     color: inherit;
     outline: none;
     transition: 0.2s;
