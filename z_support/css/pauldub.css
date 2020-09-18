@@ -29,9 +29,8 @@ p {
     line-height: 24px;
 }
 
-a, 
-a:active, 
-a:focus {
+a,
+a:visited {
     color: inherit;
     outline: none;
     transition: 0.2s;
@@ -39,10 +38,6 @@ a:focus {
 
 a:hover {
     color: #FF5722;
-}
-
-a:visited {
-    color: inherit;
 }
 
 ul {
