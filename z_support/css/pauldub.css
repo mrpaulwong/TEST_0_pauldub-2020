@@ -29,11 +29,14 @@ p {
     line-height: 24px;
 }
 
-a,
-a:visited {
+a {
     color: inherit;
     outline: none;
     transition: 0.2s;
+}
+
+a:visited {
+    color: inherit;
 }
 
 a:hover {
