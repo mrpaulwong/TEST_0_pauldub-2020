@@ -23,6 +23,12 @@ h2 {
     margin: 7px 0;
 }
 
+h2 :link,
+h2 :visited {
+    color: inherit;
+    transition: 0.2s;
+}
+
 p {
     font-size: 17px;
     font-weight: 400;
@@ -32,17 +38,7 @@ p {
 a, 
 a:active, 
 a:focus {
-    color: inherit;
     outline: none;
-    transition: 0.2s;
-}
-
-a:hover {
-    color: #FF5722;
-}
-
-a:visited {
-    color: inherit;
 }
 
 ul {
@@ -78,7 +74,7 @@ li {
 .type_orange {
     font-size: 75%;
     font-weight: 300;
-    color: #FF5722;
+    color:  #FF5722;
 }
 
 .type_grey {
@@ -95,6 +91,16 @@ li {
     font-size: 22px;
     font-weight: 300;
     padding: 20px 0;
+}
+
+.nav_global :link,
+.nav_global :visited {
+    color: inherit;
+    transition: 0.2s;
+}
+
+.nav_global a:hover {
+    color:  #FF5722;
 }
 
 .nav_left {
@@ -150,7 +156,7 @@ footer {
 }
 
 .home_thumbnail:hover a {
-    color: #FF5722;
+    color:  #FF5722;
 }
 
 /* WORK ------ */
