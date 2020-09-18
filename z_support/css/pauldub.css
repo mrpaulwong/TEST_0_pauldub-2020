@@ -31,11 +31,11 @@ p {
 }
 
 a {
-    color: inherit;
+    color: #232323;
     transition: 0.2s;
 }
 a:visited {
-    color: inherit;
+    color: #232323;
 }
 
 a:hover {
