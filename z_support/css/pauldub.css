@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #F7F9F9 ;
+    background-color: #F4F5F6 ;
     font-family: 'Heebo', sans-serif;
     color: #232323;
     margin: 0;
@@ -21,6 +21,7 @@ h1 {
 h2 {
     font-size: 16px;
     font-weight: 500;
+    letter-spacing: 0.01em;
     margin: 7px 0;
 }
 
@@ -34,6 +35,7 @@ a {
     color: #232323;
     transition: 0.2s;
 }
+
 a:visited {
     color: #232323;
 }
@@ -81,7 +83,8 @@ li {
 .type_grey {
     font-size: 85%;
     font-weight: 300;
-    color: #888;
+    letter-spacing: 0.02em;
+    color: #777;
 }
 
 /* Navigation ---------------------------------------------------------- */
@@ -115,7 +118,7 @@ li {
     padding: 12px 45px;
 }
 
-.img art {
+img .art {
     max-width: 100%;
     height: auto;
 }
