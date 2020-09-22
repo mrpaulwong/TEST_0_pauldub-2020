@@ -44,6 +44,14 @@ a:hover {
     color: #FF5722;
 }
 
+.link_inline {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #FF5722;
+    text-decoration-thickness: .035em;
+    text-underline-offset: .18em;
+}
+
 ul {
     font-size: 17px;
     line-height: 22px;
@@ -59,7 +67,8 @@ li {
 .caption {
     font-size: 14px;
     font-weight: 200;
-    color: #666666;
+    letter-spacing: 00.02em;
+    color: #777;
 }
 
 .type_paraspace {
