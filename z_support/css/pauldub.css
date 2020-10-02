@@ -196,7 +196,7 @@ footer {
 
 .work_desc_left {
     grid-column: 3 / 4;
-    padding: 20px 30px 45px 0;
+    padding: 20px 0 45px;
 }
 
 .work_desc_right {
