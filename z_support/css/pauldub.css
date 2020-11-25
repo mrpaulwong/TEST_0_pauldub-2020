@@ -264,12 +264,18 @@ footer {
 
 .work_also_wip_img {
     grid-column: 1 / 4;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .work_also_wip_desc {
     grid-column: 4 / 5;
-    padding-top: 100px;
+    padding-top: 120px;
+}
+
+.work_also_wip_rule {
+    border-top: 1px dashed #B9B9AB;
+    grid-column: 1 / 5;
+    margin: 80px 0 0;
 }
 
 .work_4col .art,
@@ -558,6 +564,11 @@ p {
 .work_also_wip_desc {
     grid-column: 1 / 2;
     padding-top: 15px;
+}
+
+.work_also_wip_rule {
+    grid-column: 1 / 2;
+    margin: 20px 0 0;
 }
 
 .work_4col .art,
