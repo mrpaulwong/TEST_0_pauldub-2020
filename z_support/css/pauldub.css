@@ -8,6 +8,9 @@
 body {
     background-color: #F4F5F6 ;
     font-family: 'Heebo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     color: #232323;
     margin: 0;
     padding: 0;
